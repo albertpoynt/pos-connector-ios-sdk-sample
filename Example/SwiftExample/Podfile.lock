@@ -12,6 +12,12 @@ PODS:
 DEPENDENCIES:
   - PoyntLib (from `../../PoyntLib.podspec`)
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Bugsnag
+    - KSCrash
+    - OpenSSL-Universal
+
 EXTERNAL SOURCES:
   PoyntLib:
     :path: "../../PoyntLib.podspec"
@@ -20,8 +26,8 @@ SPEC CHECKSUMS:
   Bugsnag: d86488d670f91acbce0186e6570e500039676ef0
   KSCrash: 8acc46aca72b2772d5d1e3cba1da9173db4d705e
   OpenSSL-Universal: 71f2c4b2ae758e2218090f905e95ca0ac5c01be7
-  PoyntLib: 0128497e80a96860b615721873ec9f1abab84747
+  PoyntLib: c207eb627ab511e2896968dc719120e2a2770dc7
 
 PODFILE CHECKSUM: c55d8e55370b0b96250511b308532a7a95df6812
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.5.3
